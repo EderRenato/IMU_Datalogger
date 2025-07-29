@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-caminho_arquivo = "H:/medicoes_imu2.csv"
+caminho_arquivo = "caminho_do_arquivo.csv"
 dados = pd.read_csv(caminho_arquivo)
 dados.columns = dados.columns.str.strip()
 print("Colunas disponíveis após strip():")
